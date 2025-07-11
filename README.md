@@ -1,11 +1,10 @@
 # Mini Backend for LMS with AI Tutor
 This is a simple Python Flask backend for an LMS (Learning Management System) project enhanced with AI tutors and chatbot functionality. The backend handles chatbot communication, course content delivery in JSON format, and user profile management. check [Installation](#installation) and [How to Apply](#how-to-apply).
 
-## Table of Contents
-
 ## Project Overview
+This is a basic Python Flask backend for delivering structured content, managing user data, and supporting real-time chat interactions. It handles JSON-based content, profile settings, and message formats like audio, text, markdown, and LaTeX. See [Installation](#installation) and [How to Apply](#how-to-apply) for setup. The system delivers content through an interactive chat interface, using modular JSON files with different content types.
 
-The project aims to build a dynamic learning platform where courses are delivered via AI agents and tutors through **chatbots that support realtime audio input/output, plain text, markdown and latex messages** and **lesson pages**. The course content is stored as JSON objects describing lessons with various content types (look [Course Structure](#course-structure)) :
+<!-- The project aims to build a dynamic learning platform where courses are delivered via AI agents and tutors through **chatbots that support realtime audio input/output, plain text, markdown and latex messages** and **lesson pages**. The course content is stored as JSON objects describing lessons with various content types (look [Course Structure](#course-structure)) : -->
 
 - #### Plain Text, Markdown and LaTeX - Example Idea :
     Stars hold themselves up against gravity by internal pressure. For a star with **mass $$\( M \)$$** and **radius $$\( R \)$$**, a simplified estimate of the central pressure $$\( P_c \)$$ is :
@@ -51,20 +50,20 @@ These events are neccessary for sending and receiving realtime audio :
 
 ## Frontend Tasks (What We Want)
 
-At least 300 points needed, complete as much as you can.
+<!-- At least 300 points needed, complete as much as you can. -->
 - [ ] Build a **dynamic JSON renderer** that takes the course JSON and renders lessons sequentially (100)
-- [ ] Render content types accordingly as described in [Project Overview](#project-overview) (100 points)
+<!-- - [ ] Render content types accordingly as described in [Project Overview](#project-overview) (100 points) -->
 - [ ] Implement basic profile update UI that has these options (40 points) :
   - Firstname
   - Lastname
   - Email
   - Gender
-- [ ] Implement [endpoints](#backend-endpoints) for tasks above (15 poitns each)
-- [ ] Use image and video files that are available in ```Assets``` Directory (20 points)
+<!-- - [ ] Implement [endpoints](#backend-endpoints) for tasks above (15 poitns each) -->
+<!-- - [ ] Use image and video files that are available in ```Assets``` Directory (20 points) -->
 - [ ] Ensure smooth lesson **navigation bar for course contents** and state management (70 points)
 - [ ] Create chatbot that shows texts and elements in message blob while it plays response audio and writing its transcript (150 points)
-- [ ] Implement [socket](#websocket-events) events for tasks above (200 points)
-- [ ] do [application](#how-to-apply) steps (10 points)
+<!-- - [ ] Implement [socket](#websocket-events) events for tasks above (200 points) -->
+<!-- - [ ] do [application](#how-to-apply) steps (10 points) -->
 
 ## How to Apply
 
@@ -73,7 +72,7 @@ At least 300 points needed, complete as much as you can.
 - Focus on clean, modular, and maintainable code
 - Show ability to handle asynchronous operations and real-time updates (socket programming)
 
-## Course Structure (and JSON)
+<!-- ## Course Structure (and JSON)
 Consider that you are showing course page which has :
 1. Course Overview Page
 2. Modules and Units Navigation Bar
@@ -81,40 +80,7 @@ Consider that you are showing course page which has :
 
 Each course has this structure :
 ```mermaid
-graph TD
-  Course["Course"]
-  Module1["Module 1"]
-  Module2["Module 2"]
-  ModuleBetween["..."]
-  ModuleN["Module N"]
 
-  Unit1["Unit 1"]
-  Unit2["Unit 2"]
-  Unit3["Unit 3"]
-  Unit4["Unit 4"]
-  Unit5["Unit 5"]
-  Unit6["Unit 6"]
-  Unit7["Unit 7"]
-  Unit8["Unit 8"]
-  Unit9["Unit 5"]
-
-  Course --> Module1
-  Course --> Module2
-  Course --> ModuleBetween
-  Course --> ModuleN
-
-  Module1 --> Unit1
-  Unit1 --> Unit2
-  Unit2 --> Unit3
-  Unit3 --> Unit4
-
-  Module2 --> Unit5
-  Unit5 --> Unit6
-
-  ModuleN --> Unit7
-  Unit7 --> Unit8
-  Unit8 --> Unit9
-```
 #### Response JSON of ```/api/<course_id>/``` :
 When you request ```/api/<course_id>/``` with ```GET``` method, it will give you json like :
 ```json
@@ -237,4 +203,4 @@ When you request ```/api/<course_id>/lesson/``` with ```GET``` method, it will g
 :warning: ```page_contents``` items must be visualized in order according to their types !
 
 ## Installation
-will be wrote
+will be wrote -->
