@@ -51,17 +51,17 @@ These events are neccessary for sending and receiving realtime audio :
 ## Frontend Tasks (What We Want)
 
 <!-- At least 300 points needed, complete as much as you can. -->
-- [ ] Build a **dynamic JSON renderer** that takes the course JSON and renders lessons sequentially (100)
+- [ ] Build a **dynamic JSON renderer** that takes the course JSON and renders lessons sequentially
 <!-- - [ ] Render content types accordingly as described in [Project Overview](#project-overview) (100 points) -->
-- [ ] Implement basic profile update UI that has these options (40 points) :
+- [ ] Implement basic profile update UI that has these options :
   - Firstname
   - Lastname
   - Email
   - Gender
 <!-- - [ ] Implement [endpoints](#backend-endpoints) for tasks above (15 poitns each) -->
 <!-- - [ ] Use image and video files that are available in ```Assets``` Directory (20 points) -->
-- [ ] Ensure smooth lesson **navigation bar for course contents** and state management (70 points)
-- [ ] Create chatbot that shows texts and elements in message blob while it plays response audio and writing its transcript (150 points)
+- [ ] Ensure smooth lesson **navigation bar for course contents** and state management
+- [ ] Create chatbot that shows texts and elements in message blob while it plays response audio and writing its transcript
 <!-- - [ ] Implement [socket](#websocket-events) events for tasks above (200 points) -->
 <!-- - [ ] do [application](#how-to-apply) steps (10 points) -->
 
