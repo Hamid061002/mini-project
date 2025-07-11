@@ -21,7 +21,7 @@ $P_c \approx \frac{3}{8 \pi} \frac{G M^2}{R^4}$
         <img src="Assets/Readme/example_3.png" alt="just for example" width="63%" />
     </div>
 
-- #### Interactive Visuals and Quizzes - Example :
+- #### Interactive Visuals and Quizzes - Example Idea :
     <div style="text-align:center">
         <img src="Assets/Readme/example_2.png" alt="just for example" width="63%" />
     </div>
