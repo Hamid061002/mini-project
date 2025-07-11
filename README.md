@@ -8,10 +8,8 @@ This is a simple Python Flask backend for an LMS (Learning Management System) pr
 The project aims to build a dynamic learning platform where courses are delivered via AI agents and tutors through **chatbots that support realtime audio input/output, plain text, markdown and latex messages** and **lesson pages**. The course content is stored as JSON objects describing lessons with various content types (look [Course Structure](#course-structure)) :
 
 - #### Plain Text, Markdown and LaTeX - Example Idea :
-    Stars hold themselves up against gravity by internal pressure. For a star with **mass \( M \)** and **radius \( R \)**, a simplified estimate of the central pressure \( P_c \) is :
-$$
-P_c \approx \frac{3}{8 \pi} \frac{G M^2}{R^4}
-$$
+    Stars hold themselves up against gravity by internal pressure. For a star with **mass $$\( M \)$$** and **radius $$\( R \)$$**, a simplified estimate of the central pressure $$\( P_c \)$$ is :
+$P_c \approx \frac{3}{8 \pi} \frac{G M^2}{R^4}$
 
 - #### Videos, Images and Gifs - Example Idea :
 
