@@ -9,9 +9,9 @@ The project aims to build a dynamic learning platform where courses are delivere
 
 - #### Plain Text, Markdown and LaTeX - Example Idea :
     Stars hold themselves up against gravity by internal pressure. For a star with **mass \( M \)** and **radius \( R \)**, a simplified estimate of the central pressure \( P_c \) is :
-\[
+$$
 P_c \approx \frac{3}{8 \pi} \frac{G M^2}{R^4}
-\]
+$$
 
 - #### Videos, Images and Gifs - Example Idea :
 
