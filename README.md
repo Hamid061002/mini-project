@@ -1,4 +1,4 @@
-# Mini Backend for LMS with AI Tutor
+# Mini Backend for LMS
 This is a simple Python Flask backend for an LMS (Learning Management System) project enhanced with AI tutors and chatbot functionality. The backend handles chatbot communication, course content delivery in JSON format, and user profile management. check [Installation](#installation) and [How to Apply](#how-to-apply).
 
 ## Project Overview
