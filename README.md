@@ -237,3 +237,6 @@ When you request ```/api/<course_id>/lesson/``` with ```GET``` method, it will g
 }
 ```
 :warning: ```page_contents``` items must be visualized in order according to their types !
+
+## Installation
+will be wrote
