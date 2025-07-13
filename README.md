@@ -1,5 +1,5 @@
 # Mini Backend for LMS
-This is a basic Python Flask backend for delivering structured content, managing user data, and supporting real-time chat interactions. It handles JSON-based content, profile settings, and message formats like audio, text, markdown, and LaTeX. See [Installation](#installation) and [How to Apply](#how-to-apply) for setup.
+This is a basic Python Flask backend for delivering structured content, managing user data, and supporting real-time chat interactions. It handles JSON-based content, profile settings, and message formats like audio, text, markdown, and LaTeX. See [Installation](#installation-and-usage) and [How to Apply](#how-to-apply) for setup.
 
 ## Project Overview
 The system delivers content through an interactive chat interface, using modular JSON files with different content types.
