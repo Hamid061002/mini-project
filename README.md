@@ -1,8 +1,9 @@
 # Mini Backend for LMS
-This is a simple Python Flask backend for an LMS (Learning Management System) project enhanced with AI tutors and chatbot functionality. The backend handles chatbot communication, course content delivery in JSON format, and user profile management. check [Installation](#installation) and [How to Apply](#how-to-apply).
+This is a basic Python Flask backend for delivering structured content, managing user data, and supporting real-time chat interactions. It handles JSON-based content, profile settings, and message formats like audio, text, markdown, and LaTeX. See [Installation](#installation) and [How to Apply](#how-to-apply) for setup.
 
 ## Project Overview
-This is a basic Python Flask backend for delivering structured content, managing user data, and supporting real-time chat interactions. It handles JSON-based content, profile settings, and message formats like audio, text, markdown, and LaTeX. See [Installation](#installation) and [How to Apply](#how-to-apply) for setup. The system delivers content through an interactive chat interface, using modular JSON files with different content types.
+The system delivers content through an interactive chat interface, using modular JSON files with different content types.
+
 
 <!-- The project aims to build a dynamic learning platform where courses are delivered via AI agents and tutors through **chatbots that support realtime audio input/output, plain text, markdown and latex messages** and **lesson pages**. The course content is stored as JSON objects describing lessons with various content types (look [Course Structure](#course-structure)) : -->
 
