@@ -202,6 +202,13 @@ When you request ```/api/<course_id>/lesson/``` with ```GET``` method, it will g
 }
 ```
 :warning: ```page_contents``` items must be visualized in order according to their types !
-
-## Installation
-will be wrote -->
+-->
+## Installation and Usage
+to install necessary packages simply do :
+```bash
+pip3 install flask flask-cors
+```
+then run mini-backend by :
+```
+python3 main.py
+```
