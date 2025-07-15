@@ -72,6 +72,8 @@ These events are neccessary for sending and receiving realtime audio :
 - Use the provided backend endpoints to fetch data and send messages
 - Focus on clean, modular, and maintainable code
 - Show ability to handle asynchronous operations and real-time updates (socket programming)
+- Commit your changes and pull request to this project
+- Contact us on telegram via ```@ramtinkosari```, feel free to ask about steps
 
 <!-- ## Course Structure (and JSON)
 Consider that you are showing course page which has :
