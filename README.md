@@ -52,7 +52,7 @@ These events are neccessary for sending and receiving realtime audio :
 ## Frontend Tasks (What We Want)
 
 <!-- At least 300 points needed, complete as much as you can. -->
-- [ ] Build a **dynamic JSON renderer** that takes the course JSON and renders lessons sequentially
+- [ ] Build a **dynamic JSON renderer** that takes the course JSON and renders lessons sequentially (sample JSONs are available in [Files](./Files/) Directory)
 <!-- - [ ] Render content types accordingly as described in [Project Overview](#project-overview) (100 points) -->
 - [ ] Implement basic profile update UI that has these options :
   - Firstname
