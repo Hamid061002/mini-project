@@ -16,6 +16,21 @@ $P_c \approx \frac{3}{8 \pi} \frac{G M^2}{R^4}$
     <div style="text-align:center">
         <img src="Assets/Readme/example_1.png" alt="just for example" width="63%" />
     </div>
+# Mini Backend for LMS
+This is a basic Python Flask backend for delivering structured content, managing user data, and supporting real-time chat interactions. It handles JSON-based content, profile settings, and message formats like audio, text, markdown, and LaTeX. See [Installation](#installation-and-usage) and [How to Apply](#how-to-apply) for setup.
+
+## Project Overview
+The system delivers content through an interactive chat interface, using modular JSON files with different content types.
+
+- #### Plain Text, Markdown and LaTeX - Example Idea :
+    Stars hold themselves up against gravity by internal pressure. For a star with **mass $$\( M \)$$** and **radius $$\( R \)$$**, a simplified estimate of the central pressure $$\( P_c \)$$ is :
+$P_c \approx \frac{3}{8 \pi} \frac{G M^2}{R^4}$
+
+- #### Videos, Images and Gifs - Example Idea :
+
+    <div style="text-align:center">
+        <img src="Assets/Readme/example_1.png" alt="just for example" width="63%" />
+    </div>
 
 - #### Diagrams - Example Idea :
     <div style="text-align:center">
@@ -26,7 +41,6 @@ $P_c \approx \frac{3}{8 \pi} \frac{G M^2}{R^4}$
     <div style="text-align:center">
         <img src="Assets/Readme/example_2.png" alt="just for example" width="63%" />
     </div>
-
 
 ## Backend Endpoints
 These endpoints are available and active just for your testing whenever you run ```main.py``` : 
@@ -40,31 +54,26 @@ These endpoints are available and active just for your testing whenever you run 
 | PUT    | `/api/profile/`              | Update user profile information                 | user_id (int)                  |
 
 ## WebSocket Events
-These events are neccessary for sending and receiving realtime audio :
+These events are necessary for sending and receiving realtime audio :
 
 | Event Name     | Direction      | Description                                                         | Payload Type |
 |----------------|----------------|---------------------------------------------------------------------|--------------|
 | `audio_input`  | Client → Server | Stream chunks of recorded audio **while recording** (e.g. PCM)     | Binary blob  |
 | `audio_output` | Server → Client | Stream generated/processed audio chunks **while AI model outputs** | Binary blob  |
 
-
-
 ## Frontend Tasks (What We Want)
 
-<!-- At least 300 points needed, complete as much as you can. -->
 - [ ] Build a **dynamic JSON renderer** that takes the course JSON and renders lessons sequentially (sample JSONs are available in [Files](./Files/) Directory)
-<!-- - [ ] Render content types accordingly as described in [Project Overview](#project-overview) (100 points) -->
 - [ ] Implement basic profile update UI that has these options :
   - Firstname
   - Lastname
   - Email
   - Gender
-<!-- - [ ] Implement [endpoints](#backend-endpoints) for tasks above (15 poitns each) -->
-<!-- - [ ] Use image and video files that are available in ```Assets``` Directory (20 points) -->
 - [ ] Ensure smooth lesson **navigation bar for course contents** and state management
 - [ ] Create chatbot that shows texts and elements in message blob while it plays response audio and writing its transcript
-<!-- - [ ] Implement [socket](#websocket-events) events for tasks above (200 points) -->
-<!-- - [ ] do [application](#how-to-apply) steps (10 points) -->
+
+> [!WARNING]
+>  **Frontend Note :** Use **shadcn/ui** for all frontend components and layouts to keep the design modular and consistent. For text editing functionality in lessons, integrate **Plate Editor** to handle rich text, Markdown, and LaTeX input.
 
 ## How to Apply
 
