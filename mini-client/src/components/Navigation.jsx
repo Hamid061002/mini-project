@@ -40,13 +40,7 @@ function Navigation() {
               className={`px-4 py-2 rounded-md font-medium transition-colors ${isActive("/profile")}`}
             >
               Profile
-            </Link>            
-            <Link
-              to="/about"
-              className={`px-4 py-2 rounded-md font-medium transition-colors ${isActive("/about")}`}
-            >
-              About
-            </Link>
+            </Link>                        
           </div>
         </div>
       </div>
